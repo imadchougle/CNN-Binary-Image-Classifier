@@ -61,3 +61,26 @@ The final layer of the model is a single output neuron with a sigmoid activation
 **New Image Prediction:**
 
 A test image of Narendra Modi or Sachin Tendulkar is resized to the model's input shape (256x256x3) and passed through the model for prediction. The output is a probability value between 0 and 1. A probability close to 0 indicates a prediction for Sachin Tendulkar, while a probability close to 1 indicates a prediction for Narendra Modi. Threshold value is added. if greater value is greater than 0.5 than Narendra Modi or else Sachin Tendulkar
+
+
+**Model Output and Analysis:**
+
+![image](https://github.com/imadchougle/CNN-Binary-Image-Classifier/assets/54437743/c00f17fe-b406-4b33-81c3-e070a860f006)
+
+
+The loss decreases, indicating that the model is effectively reducing its errors during training.
+As the epochs progressed, the accuracy of the model improved significantly, reaching approximately 99.4% on both the training and test datasets. The binary cross-entropy loss decreased steadily, indicating that the model effectively minimized prediction errors
+
+
+The model have learned well from the training data and shows good results with high accuracy on the training set
+
+
+![image](https://github.com/imadchougle/CNN-Binary-Image-Classifier/assets/54437743/7c5577c5-a8b3-423c-afd6-4e4efd77555e)
+
+The visualization confirms that the CNN image classifier performed well during training, achieving high accuracy and minimizing loss
+
+![image](https://github.com/imadchougle/CNN-Binary-Image-Classifier/assets/54437743/b344ceef-e484-454f-8da4-cd2bb8db21f6)
+
+Fantastic! Based on the uploaded image our model has successfully classified it and provided a prediction
+
+
