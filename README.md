@@ -82,7 +82,6 @@ The visualization confirms that the CNN image classifier performed well during t
 
 **Uploading a New image(unseen image) for Prediction:**
 
-
 ![image](https://github.com/imadchougle/CNN-Binary-Image-Classifier/assets/54437743/b344ceef-e484-454f-8da4-cd2bb8db21f6)
 
 Fantastic! Based on the uploaded image our model has successfully classified it and provided a prediction
